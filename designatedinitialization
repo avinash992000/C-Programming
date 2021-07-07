@@ -1,0 +1,20 @@
+//Designated initialization: This can be followed whenever you dont know the order of members, but you know the names of the mebers.
+#include<stdio.h>
+
+struct student
+{
+    int roll;
+    float cgpa;
+    char gender;
+};
+
+int main()
+{
+    struct student s1 = {.gender='M',.roll=1227,.cgpa=8.5};
+    printf("%c %d %.2f",s1.gender,s1.roll,s1.cgpa);
+
+    printf("\nEnter new student Roll, CGPA and Gender: ");
+    scanf("%d %f %c",&s1.roll,&s1.cgpa,&s1.gender);
+    printf("Date elements are: %c %d %.2f",s1.gender,s1.roll,s1.cgpa);
+    return 0;
+}
