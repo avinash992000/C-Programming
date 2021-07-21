@@ -28,7 +28,7 @@ int main()
     printf("%d",maxind);
 }
 
-//above code compiles with less time
+//below code taken more time to compile compared to above code
 #include <assert.h>
 #include <ctype.h>
 #include <limits.h>
