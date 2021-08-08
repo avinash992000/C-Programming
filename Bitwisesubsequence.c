@@ -54,7 +54,7 @@ int main(){
                         //printf("%d %d",g[k],g[k+1]);
                         e[f]=g[k];e[f+1]=g[k+1];f+=2;}
             }
-        }*/
+        }
             if(count==x){
                 for(int k=0;k<x;k++)
                     if(a[k]>a[k+1])
@@ -63,7 +63,7 @@ int main(){
             if(c==x){
                 for(int k=0;k<x;k++)
                     printf("%d",a[k]);
-            }
+            }*/
             
             if(x==2){
             if((d[0]+1)==d[0+1]){
